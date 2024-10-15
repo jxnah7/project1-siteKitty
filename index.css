@@ -9,8 +9,8 @@
   margin-right: 0;
   margin-bottom: 0;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 30px;
+  left: 8px;
 }
 .abtme:hover {
   opacity: .75;
@@ -86,6 +86,9 @@ button {
   margin-left: 363px;
   margin-top: 40px;
   margin-bottom: 0;
+  position: absolute;
+  left: 189px;
+  top: 390px;
 }
 .confirm-button:hover {
   opacity: .8;
@@ -134,13 +137,17 @@ button {
   text-shadow: 3px 3px 0px #420505;
   font-size: 40px;
   margin-bottom: 0;
-}
+  position: absolute;
+  right: 8px;
+  bottom: 0px;}
 .game {
   text-align: left;
   margin-top: 100px;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 0px #420505;
   font-size: 35px;
+  position: absolute;
+  bottom: 0px;
 }
 @keyframes flash {
   0% {
@@ -163,10 +170,15 @@ a {
 }
 body {
   background-image: url('images/kitty-collage.jpg');
+  height: 100vh;
 }
 .music {
   height: 30px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 30px;
+  right: 8px;
+}
+.groupButtons {
+  position: absolute;
+  right: 350px;
 }
