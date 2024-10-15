@@ -1,0 +1,172 @@
+.abtme {
+  text-align: right;
+  width: 150px;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 0px #420505;
+  margin-right: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.abtme:hover {
+  opacity: .75;
+}
+p {
+  color: black;
+  font-family: Impact;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  border-radius: 3px;
+  border-color: black;
+  color: black;
+  background-color: rgb(101, 91, 91);
+  height: 36px;
+  width: 94px;
+  
+}
+
+.easy-button {
+  margin-left: 215px;
+  margin-right: 50px;
+  color: rgb(36, 186, 181);
+  border: 2px solid transparent;
+  transition: background-color .3s ease, border-color .3s ease;
+}
+.easy-button:hover {
+  opacity: .7;
+}
+.easy-button:active,
+.easy-button:focus {
+  border-radius: 5px;
+  border-color: rgb(36, 186, 181);
+  animation: flash .5s infinite;
+
+}
+.medium-button {
+  margin-right: 50px;
+  color: rgb(200, 200, 37);
+  border: 2px solid transparent;
+  transition: background-color .3s ease, border-color .3s ease;
+}
+.medium-button:hover {
+  opacity: .7;
+}
+.medium-button:active,
+.medium-button:focus {
+  border-radius: 5px;
+  border-color: yellow;
+  animation: flash .5s infinite;
+
+}
+.hell-button {
+  margin-right: 50px;
+  color: red;
+  border: 2px solid transparent;
+  transition: background-color .3s ease, border-color .3s ease;
+}
+.hell-button:hover {
+  opacity: .7;
+}
+.hell-button:active,
+.hell-button:focus {
+  border-radius: 5px;
+  border-color: red;
+  animation: flash .5s infinite;
+}
+.confirm-button {
+  color: white;
+  margin-left: 363px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.confirm-button:hover {
+  opacity: .8;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, .35);
+
+}
+.confirm-button:active {
+  opacity: .5;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 0px #420505;
+  margin-top: 30px;
+}
+.sub-title {
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 92px;
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 0px #420505;
+}
+.difficulty {
+  font-size: 40px;
+  margin-bottom: 39px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 0px #420505;
+}
+.left-italics {
+  display: inline-block;
+  transform: skew(20deg); /* Adjust the angle as needed */
+  font-style: normal; /* Ensure it's not using default italics */
+}
+.right-italics {
+  display: inline-block;
+  transform: skew(-20deg); /* Adjust the angle as needed */
+  font-style: normal; /* Ensure it's not using default italics */
+}
+.motivation {
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 0px #420505;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.game {
+  text-align: left;
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 0px #420505;
+  font-size: 35px;
+}
+@keyframes flash {
+  0% {
+      opacity: 1; /* Fully opaque */
+  }
+  50% {
+      opacity: 0.5; /* Half transparent */
+  }
+  100% {
+      opacity: 1; /* Back to fully opaque */
+  }
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.the {
+  color: rgb(236, 74, 74);
+  text-shadow: white;
+}
+body {
+  background-image: url('images/kitty:collage.jpg');
+}
+.music {
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

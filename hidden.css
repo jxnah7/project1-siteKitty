@@ -1,0 +1,36 @@
+body {
+  background-image: url(images/hiddenKitty.jpg);
+  background-size: contain;
+  margin: 0;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(105, 147, 162);
+}
+
+.out {
+  text-decoration: none;
+  position: absolute;
+  background-color: inherit;
+  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+  top: 10px;
+  left: 10px;
+  transition: .5s;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+.out:hover {
+  opacity: .75;
+}
+.out:active {
+  color: rgb(255, 0, 0);
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+a:link, a:visited {
+  color: black; /* Keep the link color black even when visited */
+}
