@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="medium.css">
+    <title>MemoryMatch!!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <p class="backk">
+      <a href="index.html">
+        BACK
+      </a>
+    </p>
+    <p class="top">
+      M E D I U M - D I F F I C U L T Y !
+    </p>
+    <p class="rules">
+      You might be cooked<br> Meowmeowmeow
+    </p>
+    <button id="start" onclick="openPopup() "class="start-button">
+      START
+    </button>
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="gamePopup">
+      <h2>Guess the Number (1-10)</h2>
+      <p>You have 3 tries to guess the number!</p>
+    
+      <input type="number" id="guessInput" min="1" max="10" placeholder="Enter your guess">
+      <button class="btn" onclick="submitGuess()">Submit Guess</button>
+    
+      <p id="feedback"></p>
+      <p id="attempts"></p>
+
+      <button class="close" onclick="closePopup()">Close</button>
+  </div>
+  <script src="medium.js"></script>
+  </body>
+</html>

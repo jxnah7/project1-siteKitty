@@ -14,7 +14,7 @@ let attemptsLeft = 3;
     }
 
     function startGame() {
-      randomNumber = Math.floor(Math.random() * 5) + 1; // Random number between 1-10
+      randomNumber = Math.floor(Math.random() * 10) + 1; // Random number between 1-10
       attemptsLeft = 3;
       document.getElementById("feedback").textContent = "";
       document.getElementById("attempts").textContent = `Attempts left: ${attemptsLeft}`;
@@ -22,8 +22,8 @@ let attemptsLeft = 3;
 
     function submitGuess() {
       const userGuess = parseInt(document.getElementById("guessInput").value);
-      if (isNaN(userGuess) || userGuess < 1 || userGuess > 5) {
-        document.getElementById("feedback").textContent = "Please enter a valid number between 1 and 5!";
+      if (isNaN(userGuess) || userGuess < 1 || userGuess > 10) {
+        document.getElementById("feedback").textContent = "Please enter a valid number between 1 and 10!";
         return;
       }
 
@@ -35,7 +35,7 @@ let attemptsLeft = 3;
       } else {
         const difference = Math.abs(randomNumber - userGuess);
         let feedbackMessage = "Wrong! You're cold.";
-        if (difference <= 2) {
+        if (difference <= 3) {
           feedbackMessage = "Wrong! You're warm though!";
         }
         
