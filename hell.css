@@ -68,7 +68,7 @@ a {
   cursor: pointer;
 }
 .start-button:hover {
-  opacity: .8;
+  opacity: .8; 
   box-shadow: 7px 7px 10px red;
 }
 .start-button:active {
