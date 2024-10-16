@@ -48,6 +48,44 @@ p {
 }
 .thx {
   font-size: 30px;
+  color: aqua;
+  text-shadow: 3px 3px 3px black;
+}
+.first {
   color: white;
   text-shadow: 3px 3px 3px black;
+  font-size: 20px;
+}
+.more {
+  margin-top: 10px;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-size: 20px;
+}
+.almost {
+  margin-top: 20px;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-size: 20px;
+}
+.swe {
+  color: rgb(181, 10, 181);
+  margin-top: 30px;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px black;
+}
+.last {
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px black;
+}
+.final {
+  margin-top: 30px;
+  color: chartreuse;
+  font-size: 25px;
+  text-shadow: 3px 3px 3px black;
+}
+.sci {
+  color: red;
 }
