@@ -1,5 +1,8 @@
 first project
 
+discoverable @ https://jxnah7.github.io/project1-siteKitty/
+
+
 objective: have some fun while learning html/css and utilize javascript in order to create functionality
 
 
