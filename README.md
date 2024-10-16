@@ -22,7 +22,7 @@ TO/DO Javascript:
   Clicking confirm only works when one of the difficulties is selected
   
 
-  Create RNG luck game for main page
+  ✅Create RNG luck game for main page
     idea:
       easy mode random num = 1 through 5
         if guessed same as random num = win
