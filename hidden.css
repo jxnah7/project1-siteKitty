@@ -11,7 +11,7 @@ body {
 .out {
   text-decoration: none;
   position: absolute;
-  background-color: inherit;
+  background-color: none;
   text-shadow: 3px 3px 3px rgb(255, 255, 255);
   top: 10px;
   left: 10px;
