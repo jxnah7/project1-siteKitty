@@ -43,3 +43,6 @@ confirmButton.addEventListener('click', () => {
         alert('Please select a difficulty before confirming!');
     }
 });
+function showAlert() {
+    alert("You have selected HELL MODE!");
+}

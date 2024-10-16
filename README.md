@@ -7,14 +7,12 @@ objective: have some fun while learning html/css and utilize javascript in order
 
 
 TO/DO HTML/CSS:
-  complete About Me section
+  ✅complete About Me section
   ✅complete Hidden Kitty section
-  center main page buttons correctly
+  ✅center main page buttons correctly
   complete working memory game
   ✅implement music control
   ✅complete motivation
-  style memory game
-      6 pictures of cats in a column
 
 TO/DO Javascript:
   memory game logic
