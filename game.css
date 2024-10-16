@@ -36,3 +36,17 @@ a {
   top: 10px;
   left: -70px;
 }
+.top {
+  color: aqua;
+  font-size: 45px;
+  text-shadow: 3px 3px 3px black;
+}
+.rules {
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-size: 20px;
+}
+.start {
+  color: white;
+  
+}
