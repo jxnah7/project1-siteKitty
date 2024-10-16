@@ -50,3 +50,15 @@ a {
   color: white;
   
 }
+img {
+  display: flex;
+  flex-wrap: wrap;  /* Allow images to wrap to a new line if needed */
+  gap: 20px;        /* Add space between images */
+  justify-content: space-around;  /* Spread images evenly */
+}
+
+img {
+  width: 150px;   /* Set image size */
+  height: 150px;  /* Make the image square */
+  cursor: pointer; /* Add a pointer to show it's clickable */
+}
