@@ -168,6 +168,8 @@ a {
 body {
   background-image: url('images/kitty-collage.jpg');
   height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 .music {
   height: 30px;
